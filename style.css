@@ -2,7 +2,7 @@
 
 :root{
     --cor-de-fundo: #5a9cc9d8;
-    --greifar: #4947aa;
+    --grifar: #4947aa;
     --branco: #ffffff;
     --botao-ativo: #82e1ee;
     --botao-inativo: #368181;
@@ -21,4 +21,73 @@ body{
     max-width: 1200px;
     width: 100%;
     margin: auto;
+}
+
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+
+.botao{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--boatao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+    border-top: none;
+}
+
+.botao:first-child{
+    border-radius: 40px 40px 0 0;
+}
+
+.botoes{
+    display: block;
+}
+
+.botao.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--grifar);
+}
+
+.abas-texto{
+    background-color: var(---texto-de-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+.aba-conteudo.ativo{
+    display: block;
+}
+
+.aba-conteudo{
+    display: none;
+}
+
+.aba-conteudo-titulo-principal{
+    font-size:  28px;
+    text-align: center;
+}
+.aba-conteudo-titulo-segundario{
+    text-align: center;
+    color: var(--grifar);
+    text-transform: uppercase;
+}
+
+.contador-digito{
+    padding: 80px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.contador-digito-numero{
+    
 }
