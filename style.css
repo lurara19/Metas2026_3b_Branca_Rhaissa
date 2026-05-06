@@ -83,11 +83,30 @@ body{
 }
 
 .contador-digito{
-    padding: 80px;
+    padding: 0 16px;
     text-align: center;
     min-width: 100px;
 }
 
 .contador-digito-numero{
-    
+    font-size: 80px;
+    margin: 20px;
 }
+
+.contador-digito-texto{
+    color: var(--grifar);
+    font-size: 20px;
+    margin: 0;
+}
+
+@media screen and (min-width:768px) {
+    .botao{
+    display: flex;
+}
+    .botao:first-child{
+        border-radius: 40px 0 0 0;
+    }
+    .botao:last-child{
+        border-radius: 0 40px 0 0;
+    }
+}    
