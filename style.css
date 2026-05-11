@@ -50,7 +50,7 @@ body{
 }
 
 .botoes{
-    display: block;
+    display: flex;
 }
 
 .botao.ativo{
