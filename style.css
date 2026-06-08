@@ -11,7 +11,8 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, TahoAI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
+ma, sans-serif;
 }
 .conteudoṕrincipal{
     display: flex;
